@@ -1,0 +1,20 @@
+{
+  "name": "mykrocore",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaredMathis/MykroCore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaredMathis/MykroCore/issues"
+  },
+  "homepage": "https://github.com/JaredMathis/MykroCore#readme"
+}
