@@ -31,7 +31,7 @@ function path_dowloads_get() {
     return './downloads/'
 } 
 
-export function http_save_get(url) {
+export function http_save(url) {
     let file_path = path.join(
         path_dowloads_get(),
         path_http_to_file(url));
