@@ -40,7 +40,7 @@ export function http_save(url) {
         url,
         get: async () => {
             if (!await file_exists(file_path)) {
-                await js_sleep(3000);
+                await js_sleep(3000 + Math.random() * 3000);
 
                 let response = await axios.get(url);
                 await fs.promises.writeFile(file_path, response.data);
